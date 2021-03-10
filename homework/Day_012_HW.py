@@ -5,7 +5,7 @@ CSV_FILE = 'boston_day12.csv'
 csv_data = pd.read_csv(CSV_FILE)
 df = pd.DataFrame(csv_data)
 df.boxplot()
-#RAD 與 B
+#TAX 與 B
 #2. 畫出散佈圖 x='NOX', y='DIS' ，並說明這兩欄位有什麼關係?
 df.plot.scatter(x='NOX', y='DIS')
 #反比
