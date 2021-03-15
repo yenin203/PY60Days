@@ -10,5 +10,5 @@ aw2 = pd.pivot_table(aw2, index='class', values=['math_score'])
 aw2
 #3.分析全校女生與男生國文平均差幾分?
 aw3 = score_df.groupby('sex').mean()
-aw3 = pd.pivot_table(aw3, index='sex', values=['math_score'])
+aw3 = pd.pivot_table(aw3, index='sex', values=['chinese_score'])
 aw3.max() - aw3.min()
