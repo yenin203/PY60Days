@@ -9,3 +9,9 @@ week_seris
 #2. 將周資料的值取平均
 mean_week = week_seris.mean()
 mean_week
+#2. 將周資料的值取平均
+mean_week = week_seris.resample('W').mean()
+mean_week
+
+print(week_seris.resample('W'))
+print(week_seris)
